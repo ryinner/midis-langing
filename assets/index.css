@@ -618,4 +618,6 @@ body {
   right: 12px;
   top: 50%;
   transform: translateY(calc(-50% + 2px));
+
+  cursor: pointer;
 }
