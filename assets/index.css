@@ -231,6 +231,8 @@ body {
 
 .community__heading {
   width: 42%;
+
+  margin-bottom: 8px;
 }
 
 .community__description {
