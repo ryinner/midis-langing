@@ -204,6 +204,10 @@ body {
   text-align: center;
 }
 
+.clients__heading {
+  margin-bottom: 8px;
+}
+
 .clients__description,
 .community__description,
 .pixelgrade__description {
@@ -244,8 +248,12 @@ body {
 }
 
 .community__adversment-item {
-  width: 33%;
-  padding: 24px 48px;
+  padding: 24px;
+  box-shadow: 0px 2px 4px 0px #ABBED133;
+}
+
+.community__adversment-heading {
+  margin-bottom: 8px;
 }
 
 .community__adversment-description {
@@ -291,8 +299,7 @@ body {
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 72px;
+  gap: 204px;
 }
 
 .business__information {
@@ -347,7 +354,7 @@ body {
 }
 
 .design__description {
-  font-size: var(--gray-color);
+  color: var(--gray-color);
 
   margin-bottom: 32px;
 }
@@ -394,7 +401,7 @@ body {
 .feedback__post {
   font-size: 16px;
   line-height: 24px;
-  color: var(--gray-color);
+  color: var(--light-gray-color);
 
   margin-bottom: 32px;
 }
